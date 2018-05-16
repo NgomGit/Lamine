@@ -1,0 +1,126 @@
+body{
+
+
+    background: url('../images/brick-wall.jpg') no-repeat ;
+
+    background-attachment: fixed;
+
+    background-size:100%;
+
+
+}
+
+
+#select{
+
+    display: inline;
+}
+
+
+
+form {
+
+    width:55%;
+
+    margin:15% auto;
+
+    /* border:1px solid gray; */
+
+  
+
+    text-align: center;
+
+    height: 55%;
+
+    padding-top:0.5%;
+
+    border-radius:10px;
+
+    position: sticky;
+
+    /* transform: translateY(-100%) rotate(100deg) scale(0.1,0.1); */
+
+    /* background-color: #e5e5e5; */
+
+    background-color: #eee;
+
+    border-top: 3px solid gray;
+
+    opacity:0.8;
+
+}
+
+#select{
+
+    width: 10%;
+   
+}
+
+form input{
+
+    border:none;
+
+    border-bottom: 3px solid silver;
+
+    height: 0%;
+
+    width:30%;
+
+    border-bottom-left-radius: 15px;
+
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    border-top-right-radius: 15px;
+
+    padding: 0.6%;
+
+    font-size: 1.2em;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form #nom , form #prenom,#password,#passwordConf,#numero,#date_naiss ,#select,label{
+
+    margin-left: 3%;
+}
+
+form #prenom, #passwordConf{
+
+     border-bottom-right-radius: 15px;
+
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    border-top-left-radius: 15px;
+
+    
+}
+
+form #email {
+
+    text-align: center ;
+}
+
+form input[type='submit']{
+
+    height: 10%;
+    /* width:30.50%; */
+
+    width: 50%;
+
+    background-color:rgb(80, 238, 80);
+
+    text-align: center;
+
+    padding: 0;
+
+    border-bottom: none;
+
+}
+
+form legend{
+
+    font-size: 1.4em;
+
+}

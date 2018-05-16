@@ -1,0 +1,114 @@
+body{
+
+     background: url('../images/joinUs.jpg') no-repeat ;
+
+    position: fixed;
+
+    background-size:100%;
+
+}
+
+
+form {
+
+    width:45%;
+
+    margin:10% auto;
+
+    /* border:1px solid gray; */
+
+    text-align: center;
+
+    height: 40%;
+
+    padding-top:5%;
+
+    border-radius:10px;
+
+    /* transform: translateY(-100%) rotate(100deg) scale(0.1,0.1); */
+
+    /* background-color: #e5e5e5; */
+
+    background-color: #eee;
+
+    border-top: 3px solid gray;
+
+    opacity:0.9;
+
+}
+
+form input{
+
+    border:none;
+
+    border-bottom: 3px solid silver;
+
+    height: 1%;
+
+    width:30.5%;
+
+    border-bottom-left-radius: 15px;
+
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    border-top-right-radius: 15px;
+
+    padding: 2%;
+
+    font-size: 1.2em;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#date_naiss {
+
+    margin: 5%;
+}
+
+form #numero, #date_naiss{
+
+     border-bottom-right-radius: 15px;
+
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    border-top-left-radius: 15px;
+
+    
+}
+
+form #numero {
+
+    text-align: center ;
+}
+
+form input[type='submit']{
+
+    height: 10%;
+    /* width:30.50%; */
+
+    width: 50%;
+
+    background-color:rgb(80, 238, 80);
+
+    text-align: center;
+
+    padding: 0;
+
+    border-bottom: none;
+
+}
+
+
+form legend{
+
+    font-size: 1.4em;
+
+}
+
+
+a {
+
+    margin:0 auto;
+ }

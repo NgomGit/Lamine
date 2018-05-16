@@ -1,0 +1,199 @@
+
+.card-text{
+
+    height:10px;
+}
+
+.card-body{
+
+
+    height: 70px;
+    overflow: hidden;
+    transition: height 0.9s;
+}
+
+.more{
+
+    height:120px;
+
+    transition: height 0.9s;
+}
+
+
+.hide{
+
+    opacity: 0;
+    display: flex;
+    height: 0px;
+    transition: opacity 1s;
+}
+
+.show{
+
+     opacity: 1;
+    display: block;
+
+    transition: opacity 0.8s;
+}
+
+input[name="id_article"]{
+
+    display: none;
+}
+
+.img-post{
+
+margin: 0 auto;
+
+box-shadow: 10px 20px 40px #ccc;
+border: 0.5px solid gray;
+border-radius: 5px;
+transform: scale(0.7,0.7) ;
+
+transition: transform 0.8s;
+width: 80%;
+height:500px;
+}
+
+.card-group{
+
+    /* height:10%;
+    margin:auto 1%; */
+}
+
+#categories{
+
+    border:1px solid red;
+
+    height:500px;
+    width: 90%;
+}
+
+#categories .card-body{
+
+
+    height:10%;
+    
+}
+
+#list-cat div {
+
+    flex: 2;
+
+     margin: 0.5%;
+
+    height:30%;
+   
+}
+
+.container{
+
+      /* background: url('../images/bg.jpg') ; */
+
+}
+
+.row div div{
+
+   /* background-color: #eee; */
+
+   background: url("../images/bg.jpg");
+}
+
+
+
+#list-cat{
+
+    display: flex;
+   
+}
+
+#list-cat img{
+
+    margin: auto auto;
+   height:10rem;
+   width:15rem;
+
+}
+
+.author{
+
+     font-family:Georgia, 'Times New Roman', Times, serif;
+        
+        /*margin:0 auto;*/
+        color:#222;
+        font-size:1.1em;
+        font-weight: bolder;
+        text-shadow: 10px 5px 15px #ccc;
+       
+
+         margin: 10px 5%;
+         display: inline;
+        z-index: 100;
+}
+
+
+.image-author{
+
+
+}
+
+.grossir{
+
+    transform : scale(1,1) rotateY(10deg) translateY(10px) translateX(10px) ;
+    transition: transform 0.9s;
+}
+
+.comment {
+
+    float: right;
+}
+
+.show-comments{
+
+    float: right;
+}
+
+.posted-on{
+
+    margin-left :1%;
+
+    color: steelblue;
+
+    font-weight: bold;
+}
+.pull-right{
+
+    float: right;
+}
+
+.card-img-top{
+
+    height: 400px;
+}
+
+.card.mb-4 {
+
+   
+}
+
+.date{
+
+    color :#111;
+}
+
+.user_name{
+
+    margin-left: 5%;
+}
+
+.commentaire{
+
+    padding: 15px;
+    margin-left: 2%;
+    border-radius: 4px;
+    text-align: left;
+    background-color: #fff;
+    width: 90%;
+
+    color: #223;
+}

@@ -1,0 +1,30 @@
+
+@import url('nav.css');
+
+
+#header{
+
+    padding: 0.5%;
+    
+    text-align: center;
+    display: block;
+    position: fixed;
+    background-color: #eee;
+
+    top:0%;
+    left:0;
+    height: 5%;
+    width: 100%;
+
+    z-index: 100;
+}
+
+#search{
+
+    float:right;
+
+    margin-right: 5%;
+    margin-top: -2%;
+
+
+}
